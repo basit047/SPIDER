@@ -9,5 +9,6 @@ Repository Overview:
    - Definition Generation Script: Utilizes the previously generated glossary to create corresponding definitions.
  - Documentation: Includes a README file providing instructions on how to use the scripts effectively.
  - Project Experiment Notebook: A Jupyter Notebook detailing the experimental process and outcomes.
+ - Paper (.pdf) about SPIDER (Initial Draft)
  - Other materials:
    - A book used for reference during experiments.
