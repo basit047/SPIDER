@@ -62,7 +62,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', type=str, help='Path to the glossary file generated from SPIDER', default=default_glossary_path)
     parser.add_argument('-m', type=str, choices=['phi3', 'mistral'], default='phi3', help='Model to use for generating definitions (default: phi3)')
-    parser.add_argument('-p', type=str, help='Prompt for user input')
+    parser.add_argument('-p', type=str, help='Prompt for user input', required=True)
 
     args = parser.parse_args()
 
