@@ -1,12 +1,12 @@
 # Ignore macOS system files
-.DS_Store
+**/.DS_Store
 
 # Ignore Python cache files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 
 # Ignore Jupyter notebook checkpoints
-notebooks/.ipynb_checkpoints
+**/.ipynb_checkpoints
 
 # Ignore virtual environment directories
 env/
